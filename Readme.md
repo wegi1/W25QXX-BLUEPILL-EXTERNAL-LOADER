@@ -3,10 +3,12 @@
 #  CONNECTIONS:
 
 
-# PA4 - FLASH CS
-# PA5 - SPI1 CLK
-# PA6 - SPI1 MISO
-# PA7 - SPI1 MOSI
+# PA4 - FLASH CS  - PIN 1 W25Qxx
+# PA5 - SPI1 CLK  - PIN 6 W25Qxx
+# PA6 - SPI1 MISO - PIN 2 W25Qxx
+# PA7 - SPI1 MOSI - PIN 5 W25Qxx
 
-# 3V3 = 3V3
-# GND = GND
+# 3V3 = 3V3 - PIN 3, PIN 7, PIN 8 OF W25Qxx
+# GND = GND - PIN 4 W25Qxx
+
+![Screenshot](/W25QXX.gif)
